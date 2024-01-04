@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.heading{
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    transition: 1s;
+}
+.heading:hover{
+    cursor:grabbing;
+    font-size: 70px;
+    
+}
+.css-logo{
+    /* border: 2px dotted darkcyan; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 10px;
+    transition: 1s;
+}
+.css-logo:hover{
+    transform: scaleX(2);
+}
+#p{
+    background-color: burlywood;
+}
+.p{
+    margin: 5px;
+    padding: 10px;
+    border: 3px solid aqua;
+}
+
+.types{
+    font-style: italic;
+    margin: 5px 30px;
+    padding: 5px;
+}
+.css-types-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70% ;
+    margin-bottom: 50px;
+    transition: 3s;
+}
+.css-types-img:hover{
+    width: 100%;
+}
+.sub-heading1{
+    /* margin: 10px; */
+    background-color: blueviolet;
+    display: inline;
+    /* text-align: center; */
+    margin-left: 42%;
+}
+.sub-heading2{
+    margin: 10px ; /* why work this duplicate property */ 
+    background-color: blueviolet;
+    display: inline-block;
+    /* text-align: center; */
+    margin-left: 41%;
+}
+.sub-heading3{
+    margin: 10px ; 
+    /* why work this duplicate property */
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.sub-heading-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    transition: 1s;
+}
+.sub-heading-img:hover{
+    transform: scaleX(1.5);
+}
+.p1{
+    text-align: justify;
+    margin: 10px;
+    border: 5px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px green;
+
+}
+.p2{
+    text-align: center;
+    margin: 10px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px green;
+}
+.p3{
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+
+    margin: 10px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px green;
+}
+
+.why-learn-heading{
+    display: none;
+}
+.p4{
+    visibility: hidden; 
+}
+.btn{
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+.btn:hover{
+    background-color: red;
+    padding: 8px;
+    font-size: 15px;
+}
